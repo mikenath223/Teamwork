@@ -77,7 +77,7 @@ const Landing = () => (
         </ProductItem>
       </ProductSection>
       <BrandIcons>
-        <img src={Icons}/>
+        <img src={Icons} alt="brand-icons"/>
       </BrandIcons>
     </main>
   </>
