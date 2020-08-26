@@ -12,6 +12,7 @@ export const theme = {
     orange: '#F58635',
     white: '#fff',
     pink: '#FF4B34',
+    darkpink: '#D73520',
     papaya: '#FCFCFC',
   },
   textSizes: {
@@ -44,7 +45,7 @@ const globalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialised;
     -mos-osk-font-smoothing: grayscale;
   }

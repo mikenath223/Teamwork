@@ -239,6 +239,71 @@ exports[`App should match snapshot 1`] = `
   font-size: 12px;
 }
 
+.c23 {
+  background-color: #FF4B34;
+}
+
+.c24 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.c25 {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  text-transform: capitalize;
+  margin: 10px 0;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.c25:hover {
+  color: inherit;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #D73520;
+  margin-top: 40px;
+  padding: 0 50px;
+  height: 40px;
+}
+
+.c26 img {
+  width: 120px;
+  height: 20px;
+}
+
+.c27 {
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+}
+
 @media (max-width:992px) {
   .c2 {
     font-size: 14px;
@@ -758,10 +823,10 @@ exports[`App should match snapshot 1`] = `
             class="c14"
             transform="uppercase"
           >
-            Email tasks In
+            Calendar Sync
           </h6>
           <p>
-            Each workspace has it's own email address. You and your clients can email tasks directly.
+            Synchronise your task due dates with any iCal compatible calendar.
           </p>
           <button
             class="c22 btn btn-primary"
@@ -782,10 +847,10 @@ exports[`App should match snapshot 1`] = `
             class="c14"
             transform="uppercase"
           >
-            Email tasks In
+            Good Job!
           </h6>
           <p>
-            Each workspace has it's own email address. You and your clients can email tasks directly.
+            With the "Good Job" feature let your team when they've done a good job on a particular task
           </p>
           <button
             class="c22 btn btn-primary"
@@ -806,10 +871,10 @@ exports[`App should match snapshot 1`] = `
             class="c14"
             transform="uppercase"
           >
-            Email tasks In
+            Time Billing
           </h6>
           <p>
-            Each workspace has it's own email address. You and your clients can email tasks directly.
+            Select which time is billable, raise detailed invoice reports.
           </p>
           <button
             class="c22 btn btn-primary"
@@ -821,6 +886,247 @@ exports[`App should match snapshot 1`] = `
         </div>
       </div>
     </section>
+    <footer
+      class="c23"
+    >
+      <div
+        class="justify-content-around mx-5 row"
+      >
+        <div
+          class="pl-5 mt-5 col"
+        >
+          <h5
+            class="c24"
+          >
+            Company
+          </h5>
+          <a
+            class="c25"
+          >
+            About Teamwork
+          </a>
+          <a
+            class="c25"
+          >
+            Careers
+          </a>
+          <a
+            class="c25"
+          >
+            Customers
+          </a>
+          <a
+            class="c25"
+          >
+            Security
+          </a>
+          <a
+            class="c25"
+          >
+            News
+          </a>
+          <a
+            class="c25"
+          >
+            Brand
+          </a>
+          <a
+            class="c25"
+          >
+            Contact us
+          </a>
+        </div>
+        <div
+          class="pl-5 mt-5 col"
+        >
+          <h5
+            class="c24"
+          >
+            Products
+          </h5>
+          <a
+            class="c25"
+          >
+            About Teamwork
+          </a>
+          <a
+            class="c25"
+          >
+            Careers
+          </a>
+          <a
+            class="c25"
+          >
+            Customers
+          </a>
+          <a
+            class="c25"
+          >
+            Security
+          </a>
+          <a
+            class="c25"
+          >
+            News
+          </a>
+          <a
+            class="c25"
+          >
+            Brand
+          </a>
+          <a
+            class="c25"
+          >
+            Contact us
+          </a>
+        </div>
+        <div
+          class="pl-5 mt-5 col"
+        >
+          <h5
+            class="c24"
+          >
+            Solutions
+          </h5>
+          <a
+            class="c25"
+          >
+            About Teamwork
+          </a>
+          <a
+            class="c25"
+          >
+            Careers
+          </a>
+          <a
+            class="c25"
+          >
+            Customers
+          </a>
+          <a
+            class="c25"
+          >
+            Security
+          </a>
+          <a
+            class="c25"
+          >
+            News
+          </a>
+          <a
+            class="c25"
+          >
+            Brand
+          </a>
+          <a
+            class="c25"
+          >
+            Contact us
+          </a>
+        </div>
+        <div
+          class="pl-5 mt-5 col"
+        >
+          <h5
+            class="c24"
+          >
+            Resources
+          </h5>
+          <a
+            class="c25"
+          >
+            About Teamwork
+          </a>
+          <a
+            class="c25"
+          >
+            Careers
+          </a>
+          <a
+            class="c25"
+          >
+            Customers
+          </a>
+          <a
+            class="c25"
+          >
+            Security
+          </a>
+          <a
+            class="c25"
+          >
+            News
+          </a>
+          <a
+            class="c25"
+          >
+            Brand
+          </a>
+          <a
+            class="c25"
+          >
+            Contact us
+          </a>
+        </div>
+        <div
+          class="pl-5 mt-5 col"
+        >
+          <h5
+            class="c24"
+          >
+            Support
+          </h5>
+          <a
+            class="c25"
+          >
+            About Teamwork
+          </a>
+          <a
+            class="c25"
+          >
+            Careers
+          </a>
+          <a
+            class="c25"
+          >
+            Customers
+          </a>
+          <a
+            class="c25"
+          >
+            Security
+          </a>
+          <a
+            class="c25"
+          >
+            News
+          </a>
+          <a
+            class="c25"
+          >
+            Brand
+          </a>
+          <a
+            class="c25"
+          >
+            Contact us
+          </a>
+        </div>
+      </div>
+      <div
+        class="c26"
+      >
+        <h6
+          class="c27"
+        >
+          © 2020 Teamwork.com, Ltd. All rights reserved.
+        </h6>
+        <img
+          alt=""
+          src="socialicons.png"
+        />
+      </div>
+    </footer>
   </main>
 </div>
 `;
