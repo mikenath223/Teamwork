@@ -22,7 +22,7 @@ exports[`Footer should match snapshot 1`] = `
 }
 
 .c2 {
-  font-size: 12px;
+  font-size: 16px;
   color: #fff;
   display: block;
   text-transform: capitalize;
@@ -71,7 +71,7 @@ exports[`Footer should match snapshot 1`] = `
       class="justify-content-around mx-5 row"
     >
       <div
-        class="pl-5 mt-5 col"
+        class="mt-5 col"
       >
         <h5
           class="c1"
@@ -115,7 +115,7 @@ exports[`Footer should match snapshot 1`] = `
         </a>
       </div>
       <div
-        class="pl-5 mt-5 col"
+        class="mt-5 col"
       >
         <h5
           class="c1"
@@ -154,7 +154,7 @@ exports[`Footer should match snapshot 1`] = `
         </a>
       </div>
       <div
-        class="pl-5 mt-5 col"
+        class="mt-5 col"
       >
         <h5
           class="c1"
@@ -193,7 +193,7 @@ exports[`Footer should match snapshot 1`] = `
         </a>
       </div>
       <div
-        class="pl-5 mt-5 col"
+        class="mt-5 col"
       >
         <h5
           class="c1"
@@ -237,7 +237,7 @@ exports[`Footer should match snapshot 1`] = `
         </a>
       </div>
       <div
-        class="pl-5 mt-5 col"
+        class="mt-5 col"
       >
         <h5
           class="c1"

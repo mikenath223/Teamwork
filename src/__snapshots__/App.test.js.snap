@@ -245,6 +245,10 @@ exports[`App should match snapshot 1`] = `
   font-size: 12px;
 }
 
+.c21 h5 {
+  font-size: 16px;
+}
+
 .c23 {
   background-color: #FF4B34;
   margin-top: 70px;
@@ -266,7 +270,7 @@ exports[`App should match snapshot 1`] = `
 }
 
 .c25 {
-  font-size: 12px;
+  font-size: 16px;
   color: #fff;
   display: block;
   text-transform: capitalize;
@@ -368,6 +372,7 @@ exports[`App should match snapshot 1`] = `
 @media (max-width:576px) {
   .c8 {
     padding: unset;
+    margin-top: 80px;
   }
 }
 
@@ -789,7 +794,7 @@ exports[`App should match snapshot 1`] = `
         How it works
       </h4>
       <div
-        class="justify-content-around align-items-center row"
+        class="justify-content-around row"
       >
         <div
           class="c21 col-sm-6 col-12"
@@ -798,12 +803,12 @@ exports[`App should match snapshot 1`] = `
             alt="email-tasks"
             src="email.png"
           />
-          <h6
+          <h5
             class="c14"
             transform="uppercase"
           >
             Email tasks In
-          </h6>
+          </h5>
           <p>
             Each workspace has it's own email address. You and your clients can email tasks directly.
           </p>
@@ -822,12 +827,12 @@ exports[`App should match snapshot 1`] = `
             alt="email-tasks"
             src="calendar.png"
           />
-          <h6
+          <h5
             class="c14"
             transform="uppercase"
           >
             Calendar Sync
-          </h6>
+          </h5>
           <p>
             Synchronise your task due dates with any iCal compatible calendar.
           </p>
@@ -846,12 +851,12 @@ exports[`App should match snapshot 1`] = `
             alt="email-tasks"
             src="goodjob.png"
           />
-          <h6
+          <h5
             class="c14"
             transform="uppercase"
           >
             Good Job!
-          </h6>
+          </h5>
           <p>
             With the "Good Job" feature let your team when they've done a good job on a particular task
           </p>
@@ -870,12 +875,12 @@ exports[`App should match snapshot 1`] = `
             alt="email-tasks"
             src="billing.png"
           />
-          <h6
+          <h5
             class="c14"
             transform="uppercase"
           >
             Time Billing
-          </h6>
+          </h5>
           <p>
             Select which time is billable, raise detailed invoice reports.
           </p>
@@ -896,7 +901,7 @@ exports[`App should match snapshot 1`] = `
         class="justify-content-around mx-5 row"
       >
         <div
-          class="pl-5 mt-5 col"
+          class="mt-5 col"
         >
           <h5
             class="c24"
@@ -940,7 +945,7 @@ exports[`App should match snapshot 1`] = `
           </a>
         </div>
         <div
-          class="pl-5 mt-5 col"
+          class="mt-5 col"
         >
           <h5
             class="c24"
@@ -979,7 +984,7 @@ exports[`App should match snapshot 1`] = `
           </a>
         </div>
         <div
-          class="pl-5 mt-5 col"
+          class="mt-5 col"
         >
           <h5
             class="c24"
@@ -1018,7 +1023,7 @@ exports[`App should match snapshot 1`] = `
           </a>
         </div>
         <div
-          class="pl-5 mt-5 col"
+          class="mt-5 col"
         >
           <h5
             class="c24"
@@ -1062,7 +1067,7 @@ exports[`App should match snapshot 1`] = `
           </a>
         </div>
         <div
-          class="pl-5 mt-5 col"
+          class="mt-5 col"
         >
           <h5
             class="c24"
