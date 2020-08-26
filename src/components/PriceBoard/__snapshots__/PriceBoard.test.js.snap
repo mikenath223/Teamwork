@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceBoard should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.c1 {
+  background-color: #FCFCFC;
+  text-align: center;
+  box-shadow: 0 2px 2px silver;
+  width: 200px;
+  padding: 20px 0;
+}
+
+.c1 ul {
+  text-align: left;
+  list-style: none;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.c2 {
+  font-weight: 700;
+}
+
+.c4 {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 16px;
+  line-height: 30px;
+}
+
+.c3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    margin-top: 40px;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <article
+      class="c1"
+    >
+      <h2
+        class="c2"
+      >
+        $35
+      </h2>
+      <h3
+        class="c3"
+      >
+        Basic
+      </h3>
+      <ul>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Projects
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Version History
+        </li>
+      </ul>
+    </article>
+    <article
+      class="c1"
+    >
+      <h2
+        class="c2"
+      >
+        $40
+      </h2>
+      <h3
+        class="c3"
+      >
+        Premium
+      </h3>
+      <ul>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Projects
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Version History
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Custom File/Permissions
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Invite-only Private Projects
+        </li>
+      </ul>
+    </article>
+    <article
+      class="c1"
+    >
+      <h2
+        class="c2"
+      >
+        $50
+      </h2>
+      <h3
+        class="c3"
+      >
+        Ultimate
+      </h3>
+      <ul>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Projects
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Version History
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Custom File/Permissions
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Invite-only Private Projects
+        </li>
+        <li
+          class="c4"
+        >
+          <b>
+            ✓
+          </b>
+           Unlimited Private Projects
+        </li>
+      </ul>
+    </article>
+  </section>
+</div>
+`;

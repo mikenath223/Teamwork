@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match snapshot 1`] = `
+.c0 {
+  background-color: #fff;
+}
+
+.c2 {
+  margin-right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.c1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.c1.c1 {
+  color: #F58635;
+}
+
+.c3 {
+  background-color: #F58635;
+}
+
+.c3.c3:hover {
+  opacity: 0.7;
+  background-color: #F58635;
+}
+
+@media (max-width:992px) {
+  .c2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:992px) {
+  .c1 {
+    font-size: 18px;
+  }
+}
+
+<div>
+  <nav
+    class="c0 navbar navbar-expand-md px-5 navbar-light"
+  >
+    <a
+      class="c1 navbar-brand"
+      href="#home"
+    >
+      teamwork
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mx-auto navbar-nav"
+      >
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Why teamwork?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Solutions?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Pricing?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Resources
+        </a>
+      </div>
+      <div
+        class="mr-3 navbar-nav"
+      >
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Login
+        </a>
+        <button
+          class="c3 border border-0 btn-warning btn btn-primary"
+          type="button"
+        >
+          Try Now
+        </button>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

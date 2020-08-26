@@ -121,7 +121,6 @@ export const Text = styled.h4`
 
 export const BrandIcons = styled.div`
   text-align: center;
-  padding: 0 30px;
   margin-top: -50px;
   img {
     width: 850px;
@@ -135,7 +134,12 @@ export const BrandIcons = styled.div`
 
   @media ${breakpoints.md} {
     img {
-      width: 250px
+      width: 450px
+    }
+  }
+  @media ${breakpoints.sm} {
+    img {
+      width: 280px;
     }
   }
 `;
@@ -166,7 +170,7 @@ export const LearnMore = styled.section`
 `
 
 export const LearnMoreSpec = styled(Col)`
-  margin-bottom: 20px;
+  margin: 20px 10px;
   width: 200px;
   flex: unset;
   padding: 0;

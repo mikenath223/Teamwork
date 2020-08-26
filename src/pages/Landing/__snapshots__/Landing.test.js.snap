@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing page should match snapshot 1`] = `
+.c0 {
+  background-color: #fff;
+}
+
+.c2 {
+  margin-right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.c1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.c1.c1 {
+  color: #F58635;
+}
+
+.c3 {
+  background-color: #F58635;
+}
+
+.c3.c3:hover {
+  opacity: 0.7;
+  background-color: #F58635;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.c16 {
+  background-color: #FCFCFC;
+  text-align: center;
+  box-shadow: 0 2px 2px silver;
+  width: 200px;
+  padding: 20px 0;
+}
+
+.c16 ul {
+  text-align: left;
+  list-style: none;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.c17 {
+  font-weight: 700;
+}
+
+.c19 {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 16px;
+  line-height: 30px;
+}
+
+.c18 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF4B34;
+  color: #fff;
+  min-height: 600px;
+  padding: 60px;
+}
+
+.c4 img {
+  width: 400px;
+  height: 350px;
+}
+
+.c5 article {
+  max-width: 350px;
+  margin: 22px 0 30px;
+  padding: 5px;
+}
+
+.c5 article p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.c6 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.c7 {
+  border: 1px solid;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.c7:hover {
+  background-color: unset;
+  color: unset;
+}
+
+.c22 {
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.c22:hover {
+  background-color: unset;
+  color: unset;
+}
+
+.c8 {
+  background-color: #fff;
+  padding: 100px 20px 30px 20px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 850px;
+  margin: 0 auto 70px auto;
+}
+
+.c9.reversed {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.c9 img {
+  width: 350px;
+  height: 250px;
+}
+
+.c10 {
+  margin: 20px 25px;
+}
+
+.c11 {
+  font-weight: 700;
+  text-transform: initial;
+  -webkit-letter-spacing: 1.6px;
+  -moz-letter-spacing: 1.6px;
+  -ms-letter-spacing: 1.6px;
+  letter-spacing: 1.6px;
+}
+
+.c14 {
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 1.6px;
+  -moz-letter-spacing: 1.6px;
+  -ms-letter-spacing: 1.6px;
+  letter-spacing: 1.6px;
+}
+
+.c12 {
+  text-align: center;
+  margin-top: -50px;
+}
+
+.c12 img {
+  width: 850px;
+}
+
+.c13 {
+  margin: 70px 0;
+  text-align: center;
+}
+
+.c13 img {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.c20 {
+  width: 90%;
+  margin: auto;
+  padding: 35px;
+  text-align: center;
+}
+
+.c20 h4 {
+  margin-bottom: 70px;
+}
+
+.c21 {
+  margin: 20px 10px;
+  width: 200px;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  padding: 0;
+}
+
+.c21 img {
+  width: 120px;
+}
+
+.c21 p {
+  font-size: 12px;
+}
+
+@media (max-width:992px) {
+  .c2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:992px) {
+  .c1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:768px) {
+  .c15 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c16 {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:992px) {
+  .c4 img {
+    width: 300px;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    padding: 30px 20px 80px;
+  }
+}
+
+@media (max-width:992px) {
+  .c6 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 28px;
+    padding: 5px;
+  }
+}
+
+@media (max-width:576px) {
+  .c8 {
+    padding: unset;
+  }
+}
+
+@media (max-width:992px) {
+  .c9 {
+    width: 650px;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    width: 300px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .c9 img {
+    width: 270px;
+  }
+
+  .c9.reversed {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:992px) {
+  .c12 img {
+    width: 650px;
+  }
+}
+
+@media (max-width:768px) {
+  .c12 img {
+    width: 450px;
+  }
+}
+
+@media (max-width:576px) {
+  .c12 img {
+    width: 280px;
+  }
+}
+
+@media (max-width:576px) {
+  .c13 img {
+    width: 280px;
+  }
+}
+
+@media (max-width:768px) {
+  .c21 {
+    margin-bottom: 30px;
+  }
+
+  .c21 img {
+    width: 80px;
+  }
+}
+
+<div>
+  <nav
+    class="c0 navbar navbar-expand-md px-5 navbar-light"
+  >
+    <a
+      class="c1 navbar-brand"
+      href="#home"
+    >
+      teamwork
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mx-auto navbar-nav"
+      >
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Why teamwork?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Solutions?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Pricing?
+        </a>
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Resources
+        </a>
+      </div>
+      <div
+        class="mr-3 navbar-nav"
+      >
+        <a
+          class="c2 nav-link"
+          data-rb-event-key="#"
+          href="#"
+          role="button"
+        >
+          Login
+        </a>
+        <button
+          class="c3 border border-0 btn-warning btn btn-primary"
+          type="button"
+        >
+          Try Now
+        </button>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6"
+        >
+          <div>
+            Focus on the work that
+          </div>
+          <div>
+            matters, wherever
+          </div>
+          <div>
+            you are.
+          </div>
+        </h1>
+        <article>
+          <p>
+            Teamwork is a work and project management tool that helps in house & remote teams improve collaboartion, visibility, accountability and ultimately results.
+          </p>
+        </article>
+        <button
+          class="c7 border border-light btn btn-primary"
+          type="button"
+        >
+          Try Teamwork for free
+        </button>
+      </div>
+      <img
+        alt="info-graph"
+        src="infograph.png"
+      />
+    </section>
+    <section
+      class="c8"
+    >
+      <div
+        class="c9 reversed"
+      >
+        <img
+          alt="team-work-play"
+          src="workpic.png"
+        />
+        <article
+          class="c10"
+        >
+          <h4
+            class="c11"
+          >
+            Work with the team 
+            <br />
+             you want
+          </h4>
+          <p>
+            Whether it's for work, a side project or even the next family vacation, Trello helps your team stay organized
+          </p>
+        </article>
+      </div>
+      <div
+        class="c9"
+      >
+        <img
+          alt="info-details"
+          src="workpic.png"
+        />
+        <article
+          class="c10"
+        >
+          <h4
+            class="c11"
+          >
+            Information at a glance
+          </h4>
+          <p>
+            Dive into the details by adding comments, attachments, end dates and more diretly to Trello cards. Collaborate throughout projects.
+          </p>
+        </article>
+      </div>
+      <div
+        class="c9 reversed"
+      >
+        <img
+          alt="butler-workflow"
+          src="workpic.png"
+        />
+        <article
+          class="c10"
+        >
+          <h4
+            class="c11"
+          >
+            Internal Workflow Automation with Butler
+          </h4>
+          <p>
+            Let the robots do the job! Boost productivity by releasing the power of automation across your entire team with Butler and remove boring tasks from your to-do lists with ease.
+          </p>
+        </article>
+      </div>
+    </section>
+    <div
+      class="c12"
+    >
+      <img
+        alt="brand-icons"
+        src="brandicons.png"
+      />
+    </div>
+    <div
+      class="c13"
+    >
+      <h4
+        class="c14"
+        transform="uppercase"
+      >
+        Testimonial
+      </h4>
+      <img
+        alt="testimonial"
+        src="testimonial.png"
+      />
+    </div>
+    <section
+      class="c15"
+    >
+      <article
+        class="c16"
+      >
+        <h2
+          class="c17"
+        >
+          $35
+        </h2>
+        <h3
+          class="c18"
+        >
+          Basic
+        </h3>
+        <ul>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Projects
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Version History
+          </li>
+        </ul>
+      </article>
+      <article
+        class="c16"
+      >
+        <h2
+          class="c17"
+        >
+          $40
+        </h2>
+        <h3
+          class="c18"
+        >
+          Premium
+        </h3>
+        <ul>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Projects
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Version History
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Custom File/Permissions
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Invite-only Private Projects
+          </li>
+        </ul>
+      </article>
+      <article
+        class="c16"
+      >
+        <h2
+          class="c17"
+        >
+          $50
+        </h2>
+        <h3
+          class="c18"
+        >
+          Ultimate
+        </h3>
+        <ul>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Projects
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Version History
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Custom File/Permissions
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Invite-only Private Projects
+          </li>
+          <li
+            class="c19"
+          >
+            <b>
+              ✓
+            </b>
+             Unlimited Private Projects
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section
+      class="c20"
+    >
+      <h4
+        class="c14"
+        transform="uppercase"
+      >
+        How it works
+      </h4>
+      <div
+        class="justify-content-around align-items-center row"
+      >
+        <div
+          class="c21 col-sm-6 col-12"
+        >
+          <img
+            alt="email-tasks"
+            src="email.png"
+          />
+          <h6
+            class="c14"
+            transform="uppercase"
+          >
+            Email tasks In
+          </h6>
+          <p>
+            Each workspace has it's own email address. You and your clients can email tasks directly.
+          </p>
+          <button
+            class="c22 btn btn-primary"
+            dark="black"
+            type="button"
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          class="c21 col-sm-6 col-12"
+        >
+          <img
+            alt="email-tasks"
+            src="calendar.png"
+          />
+          <h6
+            class="c14"
+            transform="uppercase"
+          >
+            Email tasks In
+          </h6>
+          <p>
+            Each workspace has it's own email address. You and your clients can email tasks directly.
+          </p>
+          <button
+            class="c22 btn btn-primary"
+            dark="black"
+            type="button"
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          class="c21 col-sm-6 col-12"
+        >
+          <img
+            alt="email-tasks"
+            src="goodjob.png"
+          />
+          <h6
+            class="c14"
+            transform="uppercase"
+          >
+            Email tasks In
+          </h6>
+          <p>
+            Each workspace has it's own email address. You and your clients can email tasks directly.
+          </p>
+          <button
+            class="c22 btn btn-primary"
+            dark="black"
+            type="button"
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          class="c21 col-sm-6 col-12"
+        >
+          <img
+            alt="email-tasks"
+            src="billing.png"
+          />
+          <h6
+            class="c14"
+            transform="uppercase"
+          >
+            Email tasks In
+          </h6>
+          <p>
+            Each workspace has it's own email address. You and your clients can email tasks directly.
+          </p>
+          <button
+            class="c22 btn btn-primary"
+            dark="black"
+            type="button"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;
