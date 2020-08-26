@@ -24,43 +24,42 @@ const Footer = () => (
       </Col>
       <Col className="pl-5 mt-5">
         <GroupText>Products</GroupText>
-        <LinkText>About Teamwork</LinkText>
-        <LinkText>Careers</LinkText>
-        <LinkText>Customers</LinkText>
-        <LinkText>Security</LinkText>
-        <LinkText>News</LinkText>
-        <LinkText>Brand</LinkText>
-        <LinkText>Contact us</LinkText>
+        <LinkText>Teamwork</LinkText>
+        <LinkText>Desk</LinkText>
+        <LinkText>Chat</LinkText>
+        <LinkText>Spaces</LinkText>
+        <LinkText>CRM</LinkText>
+        <LinkText>View all products</LinkText>
       </Col>
       <Col className="pl-5 mt-5">
         <GroupText>Solutions</GroupText>
-        <LinkText>About Teamwork</LinkText>
-        <LinkText>Careers</LinkText>
-        <LinkText>Customers</LinkText>
-        <LinkText>Security</LinkText>
-        <LinkText>News</LinkText>
-        <LinkText>Brand</LinkText>
-        <LinkText>Contact us</LinkText>
+        <LinkText>Marketing agency</LinkText>
+        <LinkText>Marketing teams</LinkText>
+        <LinkText>Product teams</LinkText>
+        <LinkText>Support teams</LinkText>
+        <LinkText>Professional services</LinkText>
+        <LinkText>Enterprises</LinkText>
       </Col>
       <Col className="pl-5 mt-5">
         <GroupText>Resources</GroupText>
-        <LinkText>About Teamwork</LinkText>
-        <LinkText>Careers</LinkText>
-        <LinkText>Customers</LinkText>
-        <LinkText>Security</LinkText>
-        <LinkText>News</LinkText>
-        <LinkText>Brand</LinkText>
-        <LinkText>Contact us</LinkText>
+        <LinkText>Blog</LinkText>
+        <LinkText>Webinars</LinkText>
+        <LinkText>Ebooks</LinkText>
+        <LinkText>Guides</LinkText>
+        <LinkText>Templates</LinkText>
+        <LinkText>Project management guide</LinkText>
+        <LinkText>View all resources</LinkText>
       </Col>
       <Col className="pl-5 mt-5">
         <GroupText>Support</GroupText>
-        <LinkText>About Teamwork</LinkText>
-        <LinkText>Careers</LinkText>
-        <LinkText>Customers</LinkText>
-        <LinkText>Security</LinkText>
-        <LinkText>News</LinkText>
-        <LinkText>Brand</LinkText>
-        <LinkText>Contact us</LinkText>
+        <LinkText>Support Center</LinkText>
+        <LinkText>Training</LinkText>
+        <LinkText>API</LinkText>
+        <LinkText>Integrations</LinkText>
+        <LinkText>Partners</LinkText>
+        <LinkText>Startups</LinkText>
+        <LinkText>Roadmap</LinkText>
+        <LinkText>Status</LinkText>
       </Col>
     </Row>
     <BottomBar>

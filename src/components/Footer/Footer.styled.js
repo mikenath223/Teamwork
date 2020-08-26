@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.footer`
   background-color: ${({ theme }) => theme.colors.pink};
+  margin-top: 70px;
 `;
 
 export const GroupText = styled.h5`
@@ -22,10 +23,6 @@ export const LinkText = styled.a`
   margin: 10px 0;
   cursor: pointer;
   width: max-content;
-
-  &:hover {
-    color: inherit;
-  }
 `
 
 export const BottomBar = styled.div`

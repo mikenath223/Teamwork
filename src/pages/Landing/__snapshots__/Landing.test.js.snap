@@ -20,6 +20,11 @@ exports[`Landing page should match snapshot 1`] = `
   color: #F58635;
 }
 
+.c1.c1:hover {
+  color: #F58635;
+  opacity: 0.7;
+}
+
 .c3 {
   background-color: #F58635;
 }
@@ -34,10 +39,10 @@ exports[`Landing page should match snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 100px;
 }
 
@@ -47,6 +52,7 @@ exports[`Landing page should match snapshot 1`] = `
   box-shadow: 0 2px 2px silver;
   width: 200px;
   padding: 20px 0;
+  margin-right: 40px;
 }
 
 .c16 ul {
@@ -241,6 +247,7 @@ exports[`Landing page should match snapshot 1`] = `
 
 .c23 {
   background-color: #FF4B34;
+  margin-top: 70px;
 }
 
 .c24 {
@@ -268,10 +275,6 @@ exports[`Landing page should match snapshot 1`] = `
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-}
-
-.c25:hover {
-  color: inherit;
 }
 
 .c26 {
@@ -330,7 +333,7 @@ exports[`Landing page should match snapshot 1`] = `
 
 @media (max-width:768px) {
   .c16 {
-    margin-top: 40px;
+    margin: 40px 0 0;
   }
 }
 
@@ -947,37 +950,32 @@ exports[`Landing page should match snapshot 1`] = `
           <a
             class="c25"
           >
-            About Teamwork
+            Teamwork
           </a>
           <a
             class="c25"
           >
-            Careers
+            Desk
           </a>
           <a
             class="c25"
           >
-            Customers
+            Chat
           </a>
           <a
             class="c25"
           >
-            Security
+            Spaces
           </a>
           <a
             class="c25"
           >
-            News
+            CRM
           </a>
           <a
             class="c25"
           >
-            Brand
-          </a>
-          <a
-            class="c25"
-          >
-            Contact us
+            View all products
           </a>
         </div>
         <div
@@ -991,37 +989,32 @@ exports[`Landing page should match snapshot 1`] = `
           <a
             class="c25"
           >
-            About Teamwork
+            Marketing agency
           </a>
           <a
             class="c25"
           >
-            Careers
+            Marketing teams
           </a>
           <a
             class="c25"
           >
-            Customers
+            Product teams
           </a>
           <a
             class="c25"
           >
-            Security
+            Support teams
           </a>
           <a
             class="c25"
           >
-            News
+            Professional services
           </a>
           <a
             class="c25"
           >
-            Brand
-          </a>
-          <a
-            class="c25"
-          >
-            Contact us
+            Enterprises
           </a>
         </div>
         <div
@@ -1035,37 +1028,37 @@ exports[`Landing page should match snapshot 1`] = `
           <a
             class="c25"
           >
-            About Teamwork
+            Blog
           </a>
           <a
             class="c25"
           >
-            Careers
+            Webinars
           </a>
           <a
             class="c25"
           >
-            Customers
+            Ebooks
           </a>
           <a
             class="c25"
           >
-            Security
+            Guides
           </a>
           <a
             class="c25"
           >
-            News
+            Templates
           </a>
           <a
             class="c25"
           >
-            Brand
+            Project management guide
           </a>
           <a
             class="c25"
           >
-            Contact us
+            View all resources
           </a>
         </div>
         <div
@@ -1079,37 +1072,42 @@ exports[`Landing page should match snapshot 1`] = `
           <a
             class="c25"
           >
-            About Teamwork
+            Support Center
           </a>
           <a
             class="c25"
           >
-            Careers
+            Training
           </a>
           <a
             class="c25"
           >
-            Customers
+            API
           </a>
           <a
             class="c25"
           >
-            Security
+            Integrations
           </a>
           <a
             class="c25"
           >
-            News
+            Partners
           </a>
           <a
             class="c25"
           >
-            Brand
+            Startups
           </a>
           <a
             class="c25"
           >
-            Contact us
+            Roadmap
+          </a>
+          <a
+            class="c25"
+          >
+            Status
           </a>
         </div>
       </div>

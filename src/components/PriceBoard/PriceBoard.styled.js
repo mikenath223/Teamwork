@@ -3,7 +3,7 @@ import { breakpoints } from 'styles/global';
 
 export const PriceSection = styled.section`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 100px;
 
   @media ${breakpoints.md} {
@@ -18,6 +18,7 @@ export const PriceDetails = styled.article`
   box-shadow: 0 2px 2px silver;
   width: 200px;
   padding: 20px 0;
+  margin-right: 40px;
 
   ul {
     text-align: left;
@@ -27,7 +28,7 @@ export const PriceDetails = styled.article`
   }
 
   @media ${breakpoints.md} {
-    margin-top: 40px;
+    margin: 40px 0 0;
   }
 `;
 

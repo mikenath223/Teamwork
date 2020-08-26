@@ -23,6 +23,10 @@ export const Brand = styled(Navbar.Brand)`
   && {
     color: ${({ theme }) => theme.colors.orange};
   }
+  &&:hover {
+    color: ${({ theme }) => theme.colors.orange};
+    opacity: 0.7;
+  }
 
   @media ${breakpoints.lg} {
     font-size: ${({ theme }) => theme.textSizes.large};

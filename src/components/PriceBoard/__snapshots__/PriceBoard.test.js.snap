@@ -6,10 +6,10 @@ exports[`PriceBoard should match snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 100px;
 }
 
@@ -19,6 +19,7 @@ exports[`PriceBoard should match snapshot 1`] = `
   box-shadow: 0 2px 2px silver;
   width: 200px;
   padding: 20px 0;
+  margin-right: 40px;
 }
 
 .c1 ul {
@@ -60,7 +61,7 @@ exports[`PriceBoard should match snapshot 1`] = `
 
 @media (max-width:768px) {
   .c1 {
-    margin-top: 40px;
+    margin: 40px 0 0;
   }
 }
 

@@ -177,7 +177,7 @@ export const LearnMoreSpec = styled(Col)`
 
   img {
     width: 120px;
-  };
+  }
   p {
     font-size: ${({ theme }) => theme.textSizes.small};
   }

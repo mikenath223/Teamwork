@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+.c0 {
+  background-color: #FF4B34;
+  margin-top: 70px;
+}
+
+.c1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.c2 {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  text-transform: capitalize;
+  margin: 10px 0;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #D73520;
+  margin-top: 40px;
+  padding: 0 50px;
+  height: 40px;
+}
+
+.c3 img {
+  width: 120px;
+  height: 20px;
+}
+
+.c4 {
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+}
+
+<div>
+  <footer
+    class="c0"
+  >
+    <div
+      class="justify-content-around mx-5 row"
+    >
+      <div
+        class="pl-5 mt-5 col"
+      >
+        <h5
+          class="c1"
+        >
+          Company
+        </h5>
+        <a
+          class="c2"
+        >
+          About Teamwork
+        </a>
+        <a
+          class="c2"
+        >
+          Careers
+        </a>
+        <a
+          class="c2"
+        >
+          Customers
+        </a>
+        <a
+          class="c2"
+        >
+          Security
+        </a>
+        <a
+          class="c2"
+        >
+          News
+        </a>
+        <a
+          class="c2"
+        >
+          Brand
+        </a>
+        <a
+          class="c2"
+        >
+          Contact us
+        </a>
+      </div>
+      <div
+        class="pl-5 mt-5 col"
+      >
+        <h5
+          class="c1"
+        >
+          Products
+        </h5>
+        <a
+          class="c2"
+        >
+          Teamwork
+        </a>
+        <a
+          class="c2"
+        >
+          Desk
+        </a>
+        <a
+          class="c2"
+        >
+          Chat
+        </a>
+        <a
+          class="c2"
+        >
+          Spaces
+        </a>
+        <a
+          class="c2"
+        >
+          CRM
+        </a>
+        <a
+          class="c2"
+        >
+          View all products
+        </a>
+      </div>
+      <div
+        class="pl-5 mt-5 col"
+      >
+        <h5
+          class="c1"
+        >
+          Solutions
+        </h5>
+        <a
+          class="c2"
+        >
+          Marketing agency
+        </a>
+        <a
+          class="c2"
+        >
+          Marketing teams
+        </a>
+        <a
+          class="c2"
+        >
+          Product teams
+        </a>
+        <a
+          class="c2"
+        >
+          Support teams
+        </a>
+        <a
+          class="c2"
+        >
+          Professional services
+        </a>
+        <a
+          class="c2"
+        >
+          Enterprises
+        </a>
+      </div>
+      <div
+        class="pl-5 mt-5 col"
+      >
+        <h5
+          class="c1"
+        >
+          Resources
+        </h5>
+        <a
+          class="c2"
+        >
+          Blog
+        </a>
+        <a
+          class="c2"
+        >
+          Webinars
+        </a>
+        <a
+          class="c2"
+        >
+          Ebooks
+        </a>
+        <a
+          class="c2"
+        >
+          Guides
+        </a>
+        <a
+          class="c2"
+        >
+          Templates
+        </a>
+        <a
+          class="c2"
+        >
+          Project management guide
+        </a>
+        <a
+          class="c2"
+        >
+          View all resources
+        </a>
+      </div>
+      <div
+        class="pl-5 mt-5 col"
+      >
+        <h5
+          class="c1"
+        >
+          Support
+        </h5>
+        <a
+          class="c2"
+        >
+          Support Center
+        </a>
+        <a
+          class="c2"
+        >
+          Training
+        </a>
+        <a
+          class="c2"
+        >
+          API
+        </a>
+        <a
+          class="c2"
+        >
+          Integrations
+        </a>
+        <a
+          class="c2"
+        >
+          Partners
+        </a>
+        <a
+          class="c2"
+        >
+          Startups
+        </a>
+        <a
+          class="c2"
+        >
+          Roadmap
+        </a>
+        <a
+          class="c2"
+        >
+          Status
+        </a>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <h6
+        class="c4"
+      >
+        © 2020 Teamwork.com, Ltd. All rights reserved.
+      </h6>
+      <img
+        alt=""
+        src="socialicons.png"
+      />
+    </div>
+  </footer>
+</div>
+`;
