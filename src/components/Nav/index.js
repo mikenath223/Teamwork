@@ -9,7 +9,7 @@ import {
 
 const NavBar = () => (
     <Wrapper expand="md px-5">
-      <Brand href="#home"><h2>teamwork</h2></Brand>
+      <Brand href="#home">teamwork</Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">

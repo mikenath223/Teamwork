@@ -1,18 +1,28 @@
 import React from 'react';
 import NavBar from 'components/Nav';
+import PriceBoard from 'components/PriceBoard'
+import { Row } from 'react-bootstrap';
 import Infograph from 'assets/infograph.png';
 import Workpic from 'assets/workpic.png';
 import Icons from 'assets/brandicons.png';
+import Testimonialpic from 'assets/testimonial.png';
+import Billing from 'assets/billing.png';
+import Calendar from 'assets/calendar.png';
+import Email from 'assets/email.png';
+import Thumbs from 'assets/goodjob.png';
 import {
   Hero,
   HeroText,
-  HeroButton,
+  SectButton,
   HeroSection,
   ProductSection,
   ProductDetails,
   ProductItem,
   Text,
-  BrandIcons
+  BrandIcons,
+  Testimonial,
+  LearnMore,
+  LearnMoreSpec
 } from './Landing.styled';
 
 const Landing = () => (
@@ -33,15 +43,15 @@ const Landing = () => (
               accountability and ultimately results.
           </p>
           </article>
-          <HeroButton className="border border-light">
+          <SectButton className="border border-light">
             Try Teamwork for free
-        </HeroButton>
+          </SectButton>
         </HeroSection>
         <img src={Infograph} alt="info-graph" />
       </Hero>
       <ProductSection>
         <ProductItem className='reversed'>
-          <img src={Workpic} alt="team-work-play"/>
+          <img src={Workpic} alt="team-work-play" />
           <ProductDetails>
             <Text>Work with the team <br /> you want</Text>
             <p>
@@ -52,7 +62,7 @@ const Landing = () => (
           </ProductDetails>
         </ProductItem>
         <ProductItem>
-          <img src={Workpic} alt="info-details"/>
+          <img src={Workpic} alt="info-details" />
           <ProductDetails>
             <Text>Information at a glance</Text>
             <p>
@@ -63,9 +73,9 @@ const Landing = () => (
           </ProductDetails>
         </ProductItem>
         <ProductItem className='reversed'>
-          <img src={Workpic} alt="butler-workflow"/>
+          <img src={Workpic} alt="butler-workflow" />
           <ProductDetails>
-            <Text>Internal Workflow 
+            <Text>Internal Workflow
             Automation with Butler</Text>
             <p>
               Let the robots do the job! Boost productivity
@@ -77,8 +87,46 @@ const Landing = () => (
         </ProductItem>
       </ProductSection>
       <BrandIcons>
-        <img src={Icons} alt="brand-icons"/>
+        <img src={Icons} alt="brand-icons" />
       </BrandIcons>
+      <Testimonial>
+        <Text transform="uppercase">Testimonial</Text>
+        <img src={Testimonialpic} alt="testimonial" />
+      </Testimonial>
+      <PriceBoard />
+      <LearnMore>
+        <Text transform="uppercase">How it works</Text>
+        <Row className="justify-content-around align-items-center">
+          <LearnMoreSpec xs={12} sm={6}>
+            <img src={Email} alt="email-tasks" />
+            <Text as="h6" transform="uppercase">Email tasks In</Text>
+            <p>Each workspace has it's own email address.
+            You and your clients can email tasks directly.</p>
+            <SectButton dark="black">Learn More</SectButton>
+          </LearnMoreSpec>
+          <LearnMoreSpec xs={12} sm={6}>
+            <img src={Calendar} alt="email-tasks" />
+            <Text as="h6" transform="uppercase">Email tasks In</Text>
+            <p>Each workspace has it's own email address.
+            You and your clients can email tasks directly.</p>
+            <SectButton dark="black">Learn More</SectButton>
+          </LearnMoreSpec>
+          <LearnMoreSpec xs={12} sm={6}>
+            <img src={Thumbs} alt="email-tasks" />
+            <Text as="h6" transform="uppercase">Email tasks In</Text>
+            <p>Each workspace has it's own email address.
+            You and your clients can email tasks directly.</p>
+            <SectButton dark="black">Learn More</SectButton>
+          </LearnMoreSpec>
+          <LearnMoreSpec xs={12} sm={6}>
+            <img src={Billing} alt="email-tasks" />
+            <Text as="h6" transform="uppercase">Email tasks In</Text>
+            <p>Each workspace has it's own email address.
+            You and your clients can email tasks directly.</p>
+            <SectButton dark="black">Learn More</SectButton>
+          </LearnMoreSpec>
+        </Row>
+      </LearnMore>
     </main>
   </>
 )

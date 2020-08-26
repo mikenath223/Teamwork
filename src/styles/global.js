@@ -9,16 +9,17 @@ export const breakpoints = {
 
 export const theme = {
   colors: {
-    white: '#fff',
     orange: '#F58635',
-    dark: '#000',
-    pink: '#FF4B34'
+    white: '#fff',
+    pink: '#FF4B34',
+    papaya: '#FCFCFC',
   },
   textSizes: {
     small: '12px',
     regular: '14px',
     medium: '16px',
     large: '18px',
+    larger: '35px',
     xLarge: '60px',
   },
   fonts: {
