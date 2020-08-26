@@ -16,7 +16,7 @@ export const GroupText = styled.h5`
 `;
 
 export const LinkText = styled.a`
-  font-size: ${({ theme }) => theme.textSizes.small};
+  font-size: ${({ theme }) => theme.textSizes.medium};
   color: ${({ theme }) => theme.colors.white};
   display: block;
   text-transform: capitalize;

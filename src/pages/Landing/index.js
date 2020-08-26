@@ -97,31 +97,31 @@ const Landing = () => (
       <PriceBoard />
       <LearnMore>
         <Text transform="uppercase">How it works</Text>
-        <Row className="justify-content-around align-items-center">
+        <Row className="justify-content-around">
           <LearnMoreSpec xs={12} sm={6}>
             <img src={Email} alt="email-tasks" />
-            <Text as="h6" transform="uppercase">Email tasks In</Text>
+            <Text as="h5" transform="uppercase">Email tasks In</Text>
             <p>Each workspace has it's own email address.
             You and your clients can email tasks directly.</p>
             <SectButton dark="black">Learn More</SectButton>
           </LearnMoreSpec>
           <LearnMoreSpec xs={12} sm={6}>
             <img src={Calendar} alt="email-tasks" />
-            <Text as="h6" transform="uppercase">Calendar Sync</Text>
+            <Text as="h5" transform="uppercase">Calendar Sync</Text>
             <p>Synchronise your task due dates with
             any iCal compatible calendar.</p>
             <SectButton dark="black">Learn More</SectButton>
           </LearnMoreSpec>
           <LearnMoreSpec xs={12} sm={6}>
             <img src={Thumbs} alt="email-tasks" />
-            <Text as="h6" transform="uppercase">Good Job!</Text>
+            <Text as="h5" transform="uppercase">Good Job!</Text>
             <p>With the "Good Job" feature let your team when
             they've done a good job on a particular task</p>
             <SectButton dark="black">Learn More</SectButton>
           </LearnMoreSpec>
           <LearnMoreSpec xs={12} sm={6}>
             <img src={Billing} alt="email-tasks" />
-            <Text as="h6" transform="uppercase">Time Billing</Text>
+            <Text as="h5" transform="uppercase">Time Billing</Text>
             <p>Select which time is billable,
             raise detailed invoice reports.</p>
             <SectButton dark="black">Learn More</SectButton>

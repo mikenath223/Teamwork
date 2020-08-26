@@ -72,6 +72,7 @@ export const ProductSection = styled.section`
 
   @media ${breakpoints.sm} {
     padding: unset;
+    margin-top: 80px;
   }
 `;
 
@@ -180,6 +181,9 @@ export const LearnMoreSpec = styled(Col)`
   }
   p {
     font-size: ${({ theme }) => theme.textSizes.small};
+  }
+  h5 {
+    font-size: ${({ theme }) => theme.textSizes.medium};
   }
 
   @media ${breakpoints.md} {

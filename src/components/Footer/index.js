@@ -12,7 +12,7 @@ import {
 const Footer = () => (
   <Wrapper>
     <Row className="justify-content-around mx-5">
-      <Col className="pl-5 mt-5">
+      <Col className="mt-5">
         <GroupText>Company</GroupText>
         <LinkText>About Teamwork</LinkText>
         <LinkText>Careers</LinkText>
@@ -22,7 +22,7 @@ const Footer = () => (
         <LinkText>Brand</LinkText>
         <LinkText>Contact us</LinkText>
       </Col>
-      <Col className="pl-5 mt-5">
+      <Col className="mt-5">
         <GroupText>Products</GroupText>
         <LinkText>Teamwork</LinkText>
         <LinkText>Desk</LinkText>
@@ -31,7 +31,7 @@ const Footer = () => (
         <LinkText>CRM</LinkText>
         <LinkText>View all products</LinkText>
       </Col>
-      <Col className="pl-5 mt-5">
+      <Col className="mt-5">
         <GroupText>Solutions</GroupText>
         <LinkText>Marketing agency</LinkText>
         <LinkText>Marketing teams</LinkText>
@@ -40,7 +40,7 @@ const Footer = () => (
         <LinkText>Professional services</LinkText>
         <LinkText>Enterprises</LinkText>
       </Col>
-      <Col className="pl-5 mt-5">
+      <Col className="mt-5">
         <GroupText>Resources</GroupText>
         <LinkText>Blog</LinkText>
         <LinkText>Webinars</LinkText>
@@ -50,7 +50,7 @@ const Footer = () => (
         <LinkText>Project management guide</LinkText>
         <LinkText>View all resources</LinkText>
       </Col>
-      <Col className="pl-5 mt-5">
+      <Col className="mt-5">
         <GroupText>Support</GroupText>
         <LinkText>Support Center</LinkText>
         <LinkText>Training</LinkText>
