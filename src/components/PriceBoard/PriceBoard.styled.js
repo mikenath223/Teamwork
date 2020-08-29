@@ -21,9 +21,8 @@ export const PriceDetails = styled.article`
   margin-right: 40px;
 
   ul {
-    text-align: left;
+    padding: 0;
     list-style: none;
-    padding: 0 5px;
     margin-top: 10px;
   }
 
@@ -39,7 +38,6 @@ export const PriceTag = styled.h2`
 export const Text = styled.li`
   font-size: ${({ theme }) => theme.textSizes.small};
   font-weight: ${({ theme }) => theme.fontWeight.medium};
-  padding-left: 16px;
   line-height: 30px;
 `;
 
