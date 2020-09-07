@@ -1,9 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userReducer from './slices/userSlice';
+import currentUserReducer from './slices/currentUserSlice';
+import usersListReducer from './slices/usersListSlice';
+import chatDataReducer from './slices/chatSlice';
 
 export default configureStore({
   reducer: {
     // valueInThestore: reducerFromSlice
-    user: userReducer,
+    chatData: chatDataReducer,
+    currentUser: currentUserReducer,
+    usersList: usersListReducer,
   },
 });
