@@ -10,6 +10,7 @@ import Authentication from 'pages/Authentication';
 import Error from 'pages/404';
 import NavBar from 'components/Nav';
 import Chats from 'pages/Chats';
+import Calendar from 'pages/Calendar';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -19,6 +20,7 @@ const App = () => {
     auth.onAuthStateChanged(async userAuth => {
       const userData = await generateUserDocument(userAuth);
       dispatch(setUser(userData));
+      console.log(userData);
     });
   }, [dispatch]);
 
@@ -31,17 +33,17 @@ const App = () => {
     dispatch(setUser({}))
   }
 
+  const { uid: currentUserId } = user;
+
   return (
     <Router>
       <Switch>
         <ThemeProvider theme={theme}>
-          <NavBar
-            signOut={signOut}
-            user={user}
-          />
+          <NavBar signOut={signOut} user={user} />
           <Route path="/" exact component={Landing} />
           <Route path="/auth/:slug" component={Authentication} />
-          <Route path="/chats" component={Chats} />
+          <Route path="/chats" component={() => <Chats user={currentUserId} />} />
+          <Route path="/calendar" exact component={Calendar} />
           <Route component={Error} />
         </ThemeProvider>
       </Switch>
